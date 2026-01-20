@@ -5,10 +5,10 @@
 		"type": "constructor"
 	},
 	{
-		"anonymous": false,
+		"anonymous": False,
 		"inputs": [
 			{
-				"indexed": false,
+				"indexed": False,
 				"internalType": "uint256",
 				"name": "newCount",
 				"type": "uint256"
