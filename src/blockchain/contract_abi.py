@@ -1,4 +1,6 @@
-[
+# src/blockchain/contract_abi.py
+
+CONTRACT_ABI =[
 	{
 		"inputs": [],
 		"stateMutability": "nonpayable",
