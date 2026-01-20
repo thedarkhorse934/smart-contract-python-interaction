@@ -1,0 +1,21 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+contract Counter {
+    uint256 private count;
+
+    event CountIncremented(uint256 newCount);
+
+    constructor() {
+        count = 0;
+    }
+
+    function getCount() external view returns (uint256) {
+        return count;
+    }
+
+    function increment() external {
+        count += 1;
+        emit CountIncremented(count);
+    }
+}
