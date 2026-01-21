@@ -78,10 +78,18 @@ Colab was intentionally used to avoid local environment friction and clearly dem
 
 ## 📁 Project Structure
 
-├── contracts/
-│ └── Counter.sol
-├── Smart_Contract_Python_Interaction.ipynb
-└── README.md
+## 📁 Project Structure
+
+```
+smart-contract-python-interaction/
+├── contracts/  
+│   └── Counter.sol                     # Solidity smart contract
+├── src/                                # Placeholder for Python modules (future)
+├── .env.example                        # Template for RPC + address
+├── Smart_Contract_Python_Interaction.ipynb  # Colab notebook demonstrating interaction
+├── requirements.txt                    # Python dependencies
+└── README.md                           # This documentation
+```
 
 ---
 
